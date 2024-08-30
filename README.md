@@ -5,7 +5,8 @@
 #### 数据集下载地址
 所有文件都可以使用以下 URL 下载。（如果链接无效，请复制 URL 并将其粘贴到浏览器。由于文件非常大，建议使用以下命令从命令控制台下载数据集：
 curl 'http://zoloz-open.oss-cn-hangzhou.aliyuncs.com/waitan2024_deepfake_challenge%2F_%E8%B5%9B%E9%81%931%E5%AF%B9%E5%A4%96%E5%8F%91%E5%B8%83%E6%95%B0%E6%8D%AE%E9%9B%86%2Fphase1.tar.gz?Expires=1726603663&OSSAccessKeyId=LTAI5tAfcZDV5eCa1BBEJL9R&Signature=wFrzBHn5bhULqWzlZP7Z74p1g9c%3D' -o multiFFDI-phase1.tar.gz
-
+视频音频转换好的MEL频谱图下载地址
+curl 'https://www.kaggle.com/datasets/ricardosakura/deepfakeoutput'
 #### 数据集说明
 数据集分为训练集和验证集两部分。使用训练集 (train_label.txt) 来训练模型，而验证集 (val_label.txt) 仅用于模型调优。文件的每一行包含两个部分，分别是图片文件名和标签值（label=1 表示Deepfake图像，label=0 表示真实人脸图像）。例如：
 
