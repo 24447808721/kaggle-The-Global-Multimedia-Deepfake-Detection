@@ -5,8 +5,8 @@
 #### 数据集下载地址
 所有文件都可以使用以下 URL 下载。（如果链接无效，请复制 URL 并将其粘贴到浏览器。由于文件非常大，建议使用以下命令从命令控制台下载数据集：
 curl 'http://zoloz-open.oss-cn-hangzhou.aliyuncs.com/waitan2024_deepfake_challenge%2F_%E8%B5%9B%E9%81%931%E5%AF%B9%E5%A4%96%E5%8F%91%E5%B8%83%E6%95%B0%E6%8D%AE%E9%9B%86%2Fphase1.tar.gz?Expires=1726603663&OSSAccessKeyId=LTAI5tAfcZDV5eCa1BBEJL9R&Signature=wFrzBHn5bhULqWzlZP7Z74p1g9c%3D' -o multiFFDI-phase1.tar.gz
-视频音频转换好的MEL频谱图下载地址
-curl 'https://www.kaggle.com/datasets/ricardosakura/deepfakeoutput'
+视频音频转换好的MEL频谱图使用以下 URL下载
+curl '[https://www.kaggle.com/datasets/ricardosakura/deepfakeoutput](https://storage.googleapis.com/kaggle-data-sets/5463798/9060390/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20240830%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240830T074351Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=c0aa4b05bba6efa6e94747efd44b25602aee1f78d35b466a7705fc586ec37543c1fb0117b3b9c7f9a3f4aa83666db5d83dd085c540e09a8d1fc7f961fb41d095ac93d486f593ca0863a29305fcbbf8e2db8671b49452544b28c84c9415fc9af50771df4123b87d35de8ab1162f68f970f8275b134cdd240f96a790fcdc6c53f315bc6d6e3d7098f7e5e60b9babb9eaecdf20f48e3ce6bf70f9e377b5c9cedf195621ee7a70ea39cb4f18b858022ef0d8723ed3d4b8789ed911bf142347880817450a4670220f452d718c71ee656d3bf834077079f5f2e96d29545354b0a66e8c047fd8f609d5a219699abf51e6a0f63f3283782b061ba8b9bd859308cadb3b67)'
 #### 数据集说明
 数据集分为训练集和验证集两部分。使用训练集 (train_label.txt) 来训练模型，而验证集 (val_label.txt) 仅用于模型调优。文件的每一行包含两个部分，分别是图片文件名和标签值（label=1 表示Deepfake图像，label=0 表示真实人脸图像）。例如：
 
